@@ -15,7 +15,7 @@ button = ReplyKeyboardMarkup(
 )
 
 
-bot = Bot("5175989981:AAEo5utYZ7tL_U57-rzKgNkseIzaTfLcM54")
+bot = Bot(Bot_token)
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
